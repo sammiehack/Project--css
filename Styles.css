@@ -223,7 +223,7 @@ padding is optional but i do this because of lists*/
     }
     .video{
         height: 400px;
-        width: 600px;
+        width: 100%;
         border: none;
         border-radius: 10px;
     }
@@ -255,6 +255,7 @@ padding is optional but i do this because of lists*/
      .table{
         padding: 20px;
         text-align: start;
+        width: 100%;
      }
      caption{
         font-weight: 700;
