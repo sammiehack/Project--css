@@ -291,7 +291,7 @@ padding is optional but i do this because of lists*/
         border: 1px solid #ccc;
         padding: 5px;
     }
-    @media (max-width:768px){}
+    @media (max-width:768px){
         table{
             width: 80%;
             margin: auto;
@@ -330,6 +330,7 @@ padding is optional but i do this because of lists*/
         display:flex;
      flex-direction: column-reverse;
     }
+}
      .required::after {
         content: "*";
         color: red;
