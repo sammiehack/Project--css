@@ -297,6 +297,7 @@ padding is optional but i do this because of lists*/
             margin: auto;
             font-size: 10px;
             padding: 0;
+            border: none;
         }
         td, th{
             padding: 1px;
