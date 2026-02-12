@@ -174,12 +174,6 @@ padding is optional but i do this because of lists*/
         display:flex;
      flex-direction: row;
     }
-    .flex1{
-        /* flex: 1; */
-    }
-    .flex2{
-        /* flex: 1.5; */
-    }
     .firstnav{
         padding-inline: 20px;
         padding-bottom: 40px;
@@ -222,7 +216,7 @@ padding is optional but i do this because of lists*/
         text-align: center;
     }
     .video{
-        height: 400px;
+        height: 300px;
         width: 100%;
         border: none;
         border-radius: 10px;
@@ -256,6 +250,7 @@ padding is optional but i do this because of lists*/
         padding: 20px;
         text-align: start;
         width: 100%;
+        border: none;
      }
      caption{
         font-weight: 700;
@@ -269,9 +264,6 @@ padding is optional but i do this because of lists*/
     .textarea{
         resize: none;
         max-width: 100ch;
-    }
-    .table{
-        border: none;
     }
     th{
         background-color:rgb(18, 175, 228);
@@ -299,11 +291,43 @@ padding is optional but i do this because of lists*/
         border: 1px solid #ccc;
         padding: 5px;
     }
-    @media (max-width: 768px){
+    @media (max-width:768px){}
+        table{
+            width: 80%;
+            margin: auto;
+            font-size: 10px;
+            padding: 0;
+        }
+        td, th{
+            padding: 1px;
+        }
+        *{
+            font-size: 12px;
+        }
+        p{
+       width:auto; 
+       padding-inline: 5px;
+       padding-bottom: 5px;
+    }
         .rows
         {
     flex-direction:column;
 }
+    .planets{
+        display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      padding: 10px;
+    }
+    h2{
+        padding: 5px;
+    }
+    header{
+        width: 200px;
+        padding: 5px;
+    }
+    .firstflex{
+        display:flex;
+     flex-direction: column-reverse;
     }
      .required::after {
         content: "*";
