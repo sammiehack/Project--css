@@ -146,7 +146,7 @@ padding is optional but i do this because of lists*/
         padding: 20px;
     }
     .aqua2{
-        color: aquamarine;
+        color: rgb(127, 136, 255);
     }
     html, body{
         overflow-x: hidden;
